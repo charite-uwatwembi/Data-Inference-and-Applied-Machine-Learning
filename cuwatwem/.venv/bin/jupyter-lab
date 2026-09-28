@@ -1,0 +1,6 @@
+#!/Users/charite/CMU/DIAML/DIAML_AS3/Data-Inference-and-Applied-Machine-Learning/cuwatwem/.venv/bin/python
+import sys
+from jupyterlab.labapp import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
